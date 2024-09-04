@@ -3,14 +3,17 @@
     height: 30px; 
     border-radius: 50%;
     border:1px rgb(212, 34, 18) solid;
-    display: inline-flex;
-    margin: px;
+    position: absolute;
+    margin: 5%;
+    padding: 5%;
 }
 .circle2{
     border-radius: 50%;
     border:1px blueviolet solid;
-    display: inline-flex;
     width: 30px;
     height: 30px; 
-    margin: px ;
+    position: absolute;
+    margin: 5%;
+    padding: 5%;
+    left: 18%;
 }
