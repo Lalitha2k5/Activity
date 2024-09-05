@@ -1,19 +1,18 @@
 .rectangle{
-    width: 30px;
-    height: 30px; 
-    border-radius: 50%;
+    width: 50px;
+    height: 20px; 
     border:1px rgb(212, 34, 18) solid;
     position: absolute;
-    margin: 5%;
+    margin: 25% 10%;
     padding: 5%;
 }
 .triangle{
-    border-radius: 50%;
-    border:1px blueviolet solid;
-    width: 30px;
-    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid rgb(49, 31, 212);
     position: absolute;
-    margin: 5%;
-    padding: 5%;
+    padding: 5.5% 8%;
     left: 18%;
+    width: 0px;
+    height: 0px;
 }
