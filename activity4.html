@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="activity4.css">
-    <title>Activity4</title>
+    <title>Triangle on Rectangle</title>
+    <style>
+        .container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+        }
+
+        .rectangle {
+            width: 150px;
+            height: 100px;
+            background-color: rgb(212, 34, 18);
+            position: absolute;
+            bottom: 0;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+            border-bottom: 50px solid rgb(49, 31, 212);
+            position: absolute;
+            top: -50px; /* Moves the triangle on top of the rectangle */
+            left: 0;
+        }
+    </style>
 </head>
 <body>
-    <div class="triangle "></div>
-    <div class="rectangle "></div>
+
+<div class="container">
+    <div class="rectangle"></div>
+    <div class="triangle"></div>
+</div>
+
 </body>
 </html>
